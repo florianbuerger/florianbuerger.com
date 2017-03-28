@@ -1,8 +1,7 @@
----
-layout: post
-title: Preview Sketch Mockups on Apple Watch
-date: '2015-07-29T11:44:41+02:00'
----
++++
+date = "2015-07-29T11:44:41+02:00"
+title = "Preview Sketch Mockups on Apple Watch"
++++
 
 When designing applications for iOS using Sketch, their companion app Sketch Mirror is a must to preview your designs on real hardware. Today I realised they don’t support the ᴡᴀᴛᴄʜ—yet, hopefully.
 

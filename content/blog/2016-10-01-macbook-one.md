@@ -1,16 +1,9 @@
----
-layout: post
-title: The MacBook
-date: 2016-10-01
-permalink: macbook
-images: macbook-one
-excerpt: How does the Apple's smallest laptop hold up against the requirements of iOS development?&#160;
----
-
-<section class="post-image-container">
-    <img src="{{site.url}}/img/{{page.images}}/macbook-one.png" data-rjs="3"
-    alt="Sketch of Macbook One">
-</section>
++++
+excerpt = "How does the Apple's smallest laptop hold up against the requirements of iOS development?&#160;"
+permalink = "macbook"
+date = "2016-10-01"
+title = "The MacBook"
++++
 
 Starting a new life as a digital nomad required some rethinking about the gear I use to develop software. In my home office in Stuttgart I used an iMac. In the shared office space I rented I took my wife's MacBook with me. I had a Thunderbolt Display on the desk. Sadly, the iMac—which was/is an awesome machine and may be one of the best Macs I've ever owned—would not be able to go around the world with me. I had to sell it.
 

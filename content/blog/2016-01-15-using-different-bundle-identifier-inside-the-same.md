@@ -1,8 +1,7 @@
----
-layout: post
-title: Using different bundle identifier inside the same Xcode target
-date: '2016-01-15T11:52:46+01:00'
----
++++
+date = "2016-01-15T11:52:46+01:00"
+title = "Using different bundle identifier inside the same Xcode target"
++++
 
 Today I want to share a technique I’ve been using for the last year or so to enable a different bundle identifier for Debug/Beta/Release builds in the same project. It enables you to install the current beta version of your app next to the release version.
 

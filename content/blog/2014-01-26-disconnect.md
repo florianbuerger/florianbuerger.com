@@ -1,9 +1,7 @@
----
-layout: post
-title: Disconnect
-date: '2014-01-26T20:24:53+01:00'
-tags: []
----
++++
+date = "2014-01-26T20:24:53+01:00"
+title = "Disconnect"
++++
 
 I went for a run today and I didn’t take my iPhone with me. Normally I use Runkeeper to track my time, my distance, my pace and so on. But this time I didn’t. The only thing I did take with me were my keys. This run was the most pleasing running experience I had in a long time.
 

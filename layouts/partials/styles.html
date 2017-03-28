@@ -11,14 +11,19 @@
 }
 
 html {
-  font-size: 1.2em;
-  --serif-font: Garamond, Gergia, serif;
+  font-size: 1.0em;
+  --serif-font: Gergia, serif;
   --sans-serif-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --mono-font: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
-@media screen and (min-width: 54em) {
+@media screen and (min-width: 25em) {
   html {
-    font-size: 1.4em;
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 40em) {
+  html {
+    font-size: 1.5em;
   }
 }
 
@@ -45,9 +50,10 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--sans-serif-font);
+  font-weight: 800;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 0.5em;
 }
 
@@ -91,6 +97,10 @@ blockquote:after {
   content:'\201D';
 }
 
+img {
+  max-width: 100%;
+}
+
 .meta {
   color: #999;
   font-size: 0.8em;
@@ -111,6 +121,36 @@ blockquote:after {
   display: inline-block;
 }
 
+.post-image-container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.post-image-container > img {
+    padding-bottom: 1em;
+    padding-right: 0;
+}
+.post-image-container > img:last-child {
+  padding-right: 0;
+}
+@media screen and (min-width: 40em) {
+  .post-image-container {
+    flex-direction: row;
+  }
+  .post-image-container > img {
+  padding-right: 1em;
+  }
+}
+
+.post > p > img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .avatar {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -118,7 +158,7 @@ blockquote:after {
   margin-right: auto;
   display: block;    
 }
-@media screen and (min-width: 54em) {
+@media screen and (min-width: 40em) {
   .avatar {
       margin-top: 4rem;
       margin-bottom: 4rem;
@@ -136,17 +176,19 @@ blockquote:after {
   margin-top: 2em;
   margin-bottom: 4em;
   font-family: var(--sans-serif-font);
-  font-weight: 300;
 }
 .navigation {
   flex-direction: row;
 }
 .navigation-title {
+  color: #999;
   font-size: 2em;
+  font-weight: 800;
   margin-bottom: 0.2em;
   text-decoration: none;
 }
 .navigation-item {
+  color: #999;
   padding-right: 1em;
   text-decoration: none;
 }

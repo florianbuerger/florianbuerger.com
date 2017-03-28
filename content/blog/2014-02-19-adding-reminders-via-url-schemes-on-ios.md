@@ -1,10 +1,8 @@
----
-layout: post
-title: Adding reminders via URL schemes on iOS
-date: '2014-02-19T00:00:00+01:00'
-tags: []
-tumblr_url: http://log.florianbuerger.com/post/120842936138/adding-reminders-via-url-schemes-on-ios
----
++++
+date = "2014-02-19T00:00:00+01:00"
+title = "Adding reminders via URL schemes on iOS"
++++
+
 If you are familiar with the productivity nerd community on iOS and Mac apps you should have heard of Launch Center Pro developed by Contrast. If not, here is the short breakdown:
 
 Launch Center Pro

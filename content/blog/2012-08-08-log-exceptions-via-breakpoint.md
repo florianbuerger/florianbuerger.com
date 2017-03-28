@@ -1,9 +1,7 @@
----
-layout: post
-title: Log Exceptions via breakpoint
-date: '2012-08-08T15:19:17+02:00'
-tags: []
----
++++
+date = "2012-08-08T15:19:17+02:00"
+title = "Log Exceptions via breakpoint"
++++
 
 Exception breakpoints are really, really handy. If you don’t use them yet, shame on you!
 

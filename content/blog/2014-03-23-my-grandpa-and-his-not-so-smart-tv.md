@@ -1,8 +1,7 @@
----
-layout: post
-title: My grandpa and his not so smart TV
-date: '2014-03-23T20:27:00+01:00'
----
++++
+date = "2014-03-23T20:27:00+01:00"
+title = "My grandpa and his not so smart TV"
++++
 
 Today I used one of those “SmartTV” for the first time for more than just one minute and for more than just the ON/OFF switch. It was a horrible experience. Let me tell you a story of my grandpa and the problem of bad design.
 

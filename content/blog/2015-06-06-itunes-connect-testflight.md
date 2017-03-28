@@ -1,8 +1,7 @@
----
-layout: post
-title: iTunes Connect & TestFlight
-date: '2015-06-06T10:56:20+02:00'
----
++++
+date = "2015-06-06T10:56:20+02:00"
+title = "iTunes Connect & TestFlight"
++++
 
 When we started a new project some months ago we tried to embrace Apple’s new technologies and services. We started the project in Swift, knowing there will be bumps along the way (we switched back to Objective-C after ~ 3 weeks struggling with Swift’s tooling, but that deserves a post on its own). We abandoned HockeyApp in favour of Apple’s own TestFlight. The client wasn’t willing to purchase an enterprise developer account in addition to the normal developer account to avoid struggling with iOS UUIDs for beta testing. Normally we’d provide our own (enterprise) developer account for beta testing via HockeyApp but the client didn’t want that either.
 

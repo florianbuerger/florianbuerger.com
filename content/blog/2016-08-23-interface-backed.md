@@ -1,8 +1,7 @@
----
-layout: post
-title: How I Use Storyboards
-date: 2016-08-23
----
++++
+date = "2016-08-23"
+title = "How I Use Storyboards"
++++
 
 In all my recent projects, I used storyboards like `nib` files. That is, one view controller per storyboard. That seems crazy at first but really helps when you want to reuse the view controller in other places.
 
