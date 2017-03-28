@@ -4,6 +4,7 @@ baseURL = "https://www.florianbuerger.com/"
 author = "Florian Bürger"
 
 canonifyurls = true
+footnoteReturnLinkContents = "↩"
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
@@ -14,3 +15,4 @@ pygmentscodefences = true
 [[menu.main]]
     name = "↪ Blog"
     url  = "blog"
+
