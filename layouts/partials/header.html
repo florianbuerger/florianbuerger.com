@@ -9,14 +9,7 @@
     <meta name="referrer" content="no-referrer">
     {{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
 
-    <title>
-      {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-      {{ if eq $url "/" }}
-        Hi 👋 | {{ .Site.Title }}
-      {{ else }}
-        {{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }} | {{ .Site.Title }}
-      {{ end }}
-    </title>
+    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
 
     {{ partial "styles.html" . }}

@@ -5,14 +5,15 @@ author = "Florian Bürger"
 
 canonifyurls = true
 footnoteReturnLinkContents = "↩"
+pluralizelisttitles = "false"
 
 pygmentsstyle = "bw"
 pygmentscodefences = true
 
 [[menu.main]]
     name = "↪ Work"
-    url  = "work"
+    url  = "/work"
 [[menu.main]]
     name = "↪ Blog"
-    url  = "blog"
+    url  = "/blog"
 

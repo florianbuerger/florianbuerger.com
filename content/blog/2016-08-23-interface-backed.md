@@ -12,7 +12,3 @@ By convention, I always name the Storyboard/Nib file the same as the class it re
 You can view the source on [GitHub](https://github.com/florianbuerger/interfacebacked). It works with [Carthage](https://github.com/carthage/carthage) out of the box. The Swift package manager isn’t stable enough yet. Currently it is iOS only but I plan to make in an universal framework in the next days. If you are on Swift 3 already, use the `swift3` branch in the `Cartfile`.
 
 Any feedback is greatly appreciated, either [open an issue](https://github.com/florianbuerger/interfacebacked/issues), via [Twitter](https://twitter.com/florianbuerger) or [email](mailto:hi@florianbuerger.com?subject=InterfaceBacked).
-
-Have a nice day!
-
--Flo
