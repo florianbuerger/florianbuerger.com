@@ -9,9 +9,6 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 
 [[menu.main]]
-    name = "↪ About"
-    url  = "about"
-[[menu.main]]
     name = "↪ Work"
     url  = "work"
 [[menu.main]]
