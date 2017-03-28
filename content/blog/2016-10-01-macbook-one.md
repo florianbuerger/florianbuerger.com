@@ -13,7 +13,7 @@ On the other side I don't really care that much about performance. I don't mind 
 
 I dabbled with the idea of getting a MacBook Air for a short time. I prefer the tear drop shape of the body. They are light and performance should suffice. The only problem is they don't offer retina displays. I didn't want to go back in time and use a non-retina machine.
 
-There is another option: The MacBook. Or MacBook One as it is often called in the internet nerd cycles. It is incredible light, perfect for travel. The battery lasts longer than the one in the pro line _check_. Retina display _check_. The small display doesn't bother me. Actually it is the same physical space as the 13 inch MacBook Pro in its default setting. I can easily adapt and if I need more screen estate I can always use the iPad as a secondary monitor thanks to [Duet][1]—by the way an awesome app. I wasn't sure about the performance though. There aren't many developers online who wrote about their experience with this small laptop. Most reviews tend to focus on writers and general consumers, casually browsing the web, writing blog posts and watching videos on YouTube.
+There is another option: The MacBook. Or MacBook One as it is often called in the internet nerd cycles. It is incredible light, perfect for travel. The battery lasts longer than the one in the pro line _check_. Retina display _check_. The small display doesn't bother me. Actually it is the same physical space as the 13 inch MacBook Pro in its default setting. I can easily adapt and if I need more screen estate I can always use the iPad as a secondary monitor thanks to [Duet](http://www.duetdisplay.com/)—by the way an awesome app. I wasn't sure about the performance though. There aren't many developers online who wrote about their experience with this small laptop. Most reviews tend to focus on writers and general consumers, casually browsing the web, writing blog posts and watching videos on YouTube.
 
 After a week of consideration I ordered the top of the line space grey MacBook[^1]. And it is **so beautiful.** The space grey color is so much better than the boring silver[^2]. I set up my dev environment and didn't run into any troubles. I was astonished how good this tiny machine handles Xcode. Sadly since the introduction of Swift Xcode's performance dropped rapidly. Opening an old Objective-C only project is blazingly fast, even when the project is double the size. Mixen Objective-C/Swift projects tend be the worst. But it wasn't an issue. Sure, it would take a few more second to run the new build or a minute more to do a clean build[^3].
 
@@ -27,14 +27,8 @@ So the only reason I didn't keep the MacBook **was Xcode**. And only if used for
 
 For any other kind of work it is a terrific machine and I highly recommend to check it out.
 
-_Enjoy your day!_
+[^1]: 1.2 GHz m5 processor, 8GB memory and 512GB SSD storage.
 
-_-Flo_
+[^2]: Originally I considered the rose gold model!
 
-[^1]:   1.2GHz m5 processor, 8GB memory and 512GB SSD storage.
-
-[^2]:	Originally I considered the rose gold model!
-
-[^3]:	Mostly on projects that still use `CocoaPods`. I try to switch to `Carthage` these days, especially with the slow Swift compile times, precompiled frameworks are a blessing.
-
-[1]:	http://www.duetdisplay.com/
+[^3]: Mostly on projects that still use `CocoaPods`. I try to switch to `Carthage` these days, especially with the slow Swift compile times, precompiled frameworks are a blessing.
