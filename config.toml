@@ -1,0 +1,19 @@
+languageCode = "en-us"
+title = "Florian Bürger"
+baseURL = "https://www.florianbuerger.com/"
+author = "Florian Bürger"
+
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+
+[[menu.main]]
+    name = "↪ About"
+    url  = "about"
+[[menu.main]]
+    name = "↪ Work"
+    url  = "work"
+[[menu.main]]
+    name = "↪ Blog"
+    url  = "blog"
