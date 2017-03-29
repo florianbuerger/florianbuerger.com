@@ -3,7 +3,6 @@ title = "Florian Bürger"
 baseURL = "https://www.florianbuerger.com/"
 author = "Florian Bürger"
 
-canonifyurls = true
 footnoteReturnLinkContents = "↩"
 pluralizelisttitles = "false"
 
