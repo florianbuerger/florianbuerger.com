@@ -24,7 +24,7 @@
       <a class="navigation-title" href="/">{{ .Site.Title }}</a>
       <nav class="navigation">
           {{ range .Site.Menus.main }}
-            <a class="navigation-item" href="{{ .URL }}">{{ .Name }}</a>
+            <a class="navigation-item" href="{{ .URL }}">↪&#xFE0E; {{ .Name }}</a>
           {{ end }}
       </nav>
     </section>
