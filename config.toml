@@ -3,7 +3,7 @@ title = "Florian Bürger"
 baseURL = "https://www.florianbuerger.com/"
 author = "Florian Bürger"
 
-footnoteReturnLinkContents = "↩"
+footnoteReturnLinkContents = "↩&#xFE0E;"
 pluralizelisttitles = "false"
 
 pygmentsstyle = "bw"
