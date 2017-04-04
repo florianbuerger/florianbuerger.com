@@ -2,14 +2,11 @@
 title = "Work"
 +++
 
-# Is this you?
-
 > I have this idea for an awesome app! 🙋
-
-# 
 
 > We have an app but it doesn't perform very well 😞
 
+# Is this you?
 
 If you see yourself in one of the statements above, please [contact me](mailto:florian@florianbuerger.com?subject=Project inquiry). I will help you to bring that idea to life, advise you how your app could be improved or help your engineering team with the implementation.
 
