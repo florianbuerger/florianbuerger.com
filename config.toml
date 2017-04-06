@@ -9,10 +9,14 @@ pluralizelisttitles = "false"
 pygmentsstyle = "bw"
 pygmentscodefences = true
 
-[[menu.main]]
-    name = "Work"
-    url  = "/work"
-[[menu.main]]
-    name = "Blog"
-    url  = "/blog"
+[blackfriday]
+  plainIDAnchors = true
+  angledQuotes = true
+  hrefTargetBlank = true
 
+[[menu.main]]
+  name = "Work"
+  url  = "/work"
+[[menu.main]]
+  name = "Blog"
+  url  = "/blog"

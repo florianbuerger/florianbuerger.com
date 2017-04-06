@@ -34,7 +34,7 @@ I tend to stick to Apple iOS architecture guidelines as close as possible. Somet
 
 Usually I write unit tests only for the model and controller layer. UI tests are awesome but require a huge amount of setup work and maintainance. They are suitable if I work on one project for a long time over many releases but most of the time they aren't worth the time investment. I use them to automate taking screenshots tought (thanks to [fastlane](https://fastlane.tools)).
 
-For web projects I try to keep the amount of tools and frameworks as small as possible. I am a big fan of [Jekyll](https://jekyllrb.com), which I used to build this site. I am playing around with `React` but I am still overwhelmed by the sheir amount of bits and pieces _required_ for a modern web app.
+For web projects I try to keep the amount of tools and frameworks as small as possible. I am a big fan of [hugo](https://gohugo.io), which I used to build this site. I am playing around with `React` but I am still overwhelmed by the sheir amount of bits and pieces _required_ for a modern web app.
 
 ## Can you design?
 
