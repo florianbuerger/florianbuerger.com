@@ -10,8 +10,6 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 
 [blackfriday]
-  plainIDAnchors = true
-  angledQuotes = true
   hrefTargetBlank = true
 
 [[menu.main]]
