@@ -79,7 +79,7 @@ p {
 }
 
 pre, code {
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-family: var(--mono-font);
   background-color: #f7f7f7;
 }
@@ -111,6 +111,24 @@ blockquote:after {
 
 img {
   max-width: 100%;
+}
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  margin: 2em 0;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  /*background: rgba(0, 0, 0, 0.35);*/
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
 }
 
 .meta {
@@ -302,5 +320,10 @@ animation-delay: 3.3s;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+#not-found {
+
+}
  
 </style>
+

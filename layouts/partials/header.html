@@ -12,7 +12,9 @@
     <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
 
-    {{ partial "styles.html" . }}
+    <style type="text/css">
+    {{ partial "styles.css" . | safeCSS }}
+    </style>
 
     {{ if .RSSLink }}
       <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
