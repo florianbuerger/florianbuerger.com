@@ -10,9 +10,9 @@ title = "Work"
 
 If you see yourself in one of the statements above, please [contact me](mailto:florian@florianbuerger.com?subject=Project inquiry). I will help you to bring that idea to life, advise you how your app could be improved or help your engineering team with the implementation.
 
-I am available for iOS and macOS development as well as any kind of software design. As I am learning other platforms as well, I will take on smaller web front-end or Android projects.
+I developed apps full time for the Apple platform since the first release of iPhone. Back then, iOS was called iPhone OS, and web apps were the “sweet solution” for apps on iPhone, just to put the time frame into perspective.
 
-I develop apps full time for the Apple platform since the first release of iPhone. Back then, iOS was called iPhone OS, and web apps were the “sweet solution” for apps on iPhone, just to put the time frame into perspective.
+I am available for iOS and macOS development as well as any kind of software design. As I am learning other platforms as well, I will take on smaller web front-end or Android projects.
 
 # FAQ
 
@@ -26,15 +26,9 @@ My rate is `80€`/hour or `3,000€`/week for short term projects or smaller ch
 
 ## What technologies do you use?
 
-Nowadays I try to write new code in Swift as much as possible. Swift is clearly the future for developing for Apple's platforms. Of course, Objective-C won't go away anytime soon.
-
-Since I programmed exclusively in Objective-C for the past years, I retain a deep understanding of the language and nearly all Cocoa Touch frameworks.
-
 I tend to stick to Apple iOS architecture guidelines as close as possible. Sometimes it may not be the most elegant solution, but it gets the job done and minimizes maintenance work in future OS releases.
 
-Usually, I write unit tests only for the model and controller layer. UI tests are excellent but require an enormous amount of setup work and maintenance. They are suitable if I work on one project for a long time over many releases, but most of the time they aren't worth the time investment. I use them to automate taking screenshots though (thanks to [fastlane](https://fastlane.tools)).
-
-For web projects, I try to keep the amount of tools and frameworks as small as possible. I am a big fan of [hugo](https://gohugo.io), which I used to build this site. I am playing around with `React` but I am still overwhelmed by the sheer amount of bits and pieces _required_ for a modern web app.
+In the end, it does not really matter what technology is used to solve a problem. The important thing is the problem is solved and the user is happy with the solution. The user does not care about implementation details.
 
 ## Can you design?
 
