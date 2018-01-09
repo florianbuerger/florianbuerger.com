@@ -12,34 +12,34 @@
 
 html {
   font-size: 1.0em;
-  --serif-font: Gergia, serif;
+  --serif-font: Georgia, serif;
   --sans-serif-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --mono-font: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   --color-light: #999;
 }
 @media screen and (min-width: 25em) {
   html {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 @media screen and (min-width: 40em) {
   html {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
 
 body {
-  font-family: var(--serif-font);
+  font-family: var(--sans-serif-font);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: subpixel-antialiased; 
+  -webkit-font-smoothing: subpixel-antialiased;
   color: #333;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-device-pixel-ratio: 1.25) {     
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-device-pixel-ratio: 1.25) {
   body {
     -webkit-font-smoothing: antialiased;
   }
-} 
+}
 
 
 main {
@@ -111,6 +111,10 @@ blockquote:after {
 
 img {
   max-width: 100%;
+}
+
+.highlighted {
+  background-color: #ffff99;
 }
 
 .hr-sect {
@@ -236,7 +240,7 @@ img {
   text-decoration: none;
 }
 
-sup { 
+sup {
   vertical-align: super;
   font-size: 0.6em;
   padding-left: 0.1em;
@@ -278,39 +282,39 @@ footer > p {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
- 
+
 /*=== Optional Delays, change values here  ===*/
 .one {
 -webkit-animation-delay: 0.4s;
 -moz-animation-delay: 0.4s;
 animation-delay: 0.4s;
 }
- 
+
 .two {
 -webkit-animation-delay: 1.7s;
 -moz-animation-delay: 1.7s;
 animation-delay: 1.7s;
 }
- 
+
 .three {
 -webkit-animation-delay: 2.3s;
 -moz-animation-delay: 2.3s;
 animation-delay: 2.3s;
 }
- 
+
 .four {
 -webkit-animation-delay: 3.3s;
 -moz-animation-delay: 3.3s;
 animation-delay: 3.3s;
 }
- 
+
 /*=== Animations start here  ===*/
 /*=== FADE IN  ===*/
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
- 
+
   to {
     opacity: 1;
   }
@@ -319,12 +323,12 @@ animation-delay: 3.3s;
   from {
     opacity: 0;
   }
- 
+
   to {
     opacity: 1;
   }
 }
- 
+
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -333,6 +337,6 @@ animation-delay: 3.3s;
 #not-found {
 
 }
- 
+
 </style>
 
