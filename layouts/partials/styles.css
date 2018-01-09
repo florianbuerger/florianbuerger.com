@@ -148,6 +148,8 @@ img {
 }
 .post-list__item {
   display: flex;
+  flex-direction: row;
+  align-items: baseline;
 }
 .post-list__item .meta {
   flex-grow: 0;
