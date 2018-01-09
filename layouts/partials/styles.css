@@ -210,9 +210,16 @@ img {
   align-items: center;
   flex-direction: column;
   margin-top: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-family: var(--sans-serif-font);
 }
+@media screen and (min-width: 40em) {
+  .navigation-container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
+
 .navigation {
   flex-direction: row;
 }
