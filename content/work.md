@@ -2,9 +2,9 @@
 title = "Work"
 +++
 
-> I have this idea for an awesome app! 🙋
+<blockquote>I have this idea for an awesome app! 🙋</blockquote>
 
-> We have an app, but it doesn't perform very well 😞
+<blockquote>We have an app, but it doesn't perform very well 😞</blockquote>
 
 # Is this you?
 
