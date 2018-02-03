@@ -11,20 +11,17 @@
 
     <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="stylesheet" href="/css/styles.css">
 
-    {{ if .RSSLink }}
-      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
+    <link rel="stylesheet" href="/css/styles.css">
+    <style type="text/css">
+      :root {
+        --background-color: #090909;
+        --color-light: #232323;
+      }
+    </style>
   </head>
 
   <body class="animate fadeIn">
     <section class="navigation-container">
       <a class="navigation-title" href="/">{{ .Site.Title }}</a>
-      <nav class="navigation">
-          {{ $currentPage := . }}
-          {{ range .Site.Menus.main }}
-            <a class="navigation-item{{ if findRE .URL $currentPage.URL 1 }} active{{end}}" href="{{ .URL }}">↪&#xFE0E; {{ .Name }}</a>
-          {{ end }}
-      </nav>
     </section>

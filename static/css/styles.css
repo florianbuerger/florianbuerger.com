@@ -1,21 +1,11 @@
-<style>
-
-* {
-  border:0;
-  font:inherit;
-  font-size:100%;
-  vertical-align:baseline;
-  margin:0;
-  padding:0;
-  color: black;
-}
-
 html {
   font-size: 1.0em;
   --serif-font: Georgia, serif;
   --sans-serif-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --mono-font: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   --color-light: #999;
+  --text-color: #333;
+  --background-color: #fff;
 }
 @media screen and (min-width: 25em) {
   html {
@@ -33,7 +23,8 @@ body {
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #333;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and ( min-device-pixel-ratio: 1.25) {
   body {
@@ -111,10 +102,21 @@ blockquote:after {
 
 img {
   max-width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+a {
+  text-decoration-skip-ink: auto;
 }
 
 .highlighted {
   background-color: #ffff99;
+}
+.active {
+  font-weight: bolder;
 }
 
 .hr-sect {
@@ -196,7 +198,7 @@ img {
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
-  display: block;    
+  display: block;
 }
 @media screen and (min-width: 40em) {
   .avatar {
@@ -236,7 +238,7 @@ img {
 }
 .navigation-item {
   color: #999;
-  padding-right: 1em;
+  margin-right: 1em;
   text-decoration: none;
 }
 
@@ -273,6 +275,129 @@ footer {
 
 footer > p {
   color: #999;
+}
+
+.photos {
+  margin: 0 2em;
+  min-height: 100vh;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 1.5em;
+     -moz-column-gap: 1.5em;
+          column-gap: 1.5em;
+  -webkit-column-rule-width: 0;
+     -moz-column-rule-width: 0;
+          column-rule-width: 0;
+}
+@media screen and (max-width: 40em) {
+  .photos {
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .photos {
+    -webkit-column-count: 4;
+       -moz-column-count: 4;
+            column-count: 4;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .photos {
+    -webkit-column-count: 5;
+       -moz-column-count: 5;
+            column-count: 5;
+  }
+}
+
+.photo {
+  display: inline-block;
+  margin-bottom: 1.5em;
+  position: relative;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+.photo-overlay {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .45);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: opacity 250ms ease-out;
+  transition: opacity 250ms ease-out;
+}
+
+.photo-overlay::after {
+  display: block;
+  content: '+';
+  color: rgba(255, 255, 255, .95);
+  text-shadow: 0 1px 2px black;
+}
+
+.photo img {
+  width: 100%;
+  /*box-shadow: 0 5px 10px rgba(0, 0, 0, .5);*/
+  background: #111;
+}
+
+.photo:hover .photo-overlay {
+  opacity: 1 !important;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .95);
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+.lightbox.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lightbox img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.lightbox img.portrait {
+  height: 90%;
+}
+
+.lightbox img.landscape {
+  width: 90%;
 }
 
 
@@ -337,6 +462,3 @@ animation-delay: 3.3s;
 #not-found {
 
 }
-
-</style>
-
