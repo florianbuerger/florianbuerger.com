@@ -241,6 +241,9 @@ a {
   margin-right: 1em;
   text-decoration: none;
 }
+.link-arrow {
+  opacity: 0.4;
+}
 
 sup {
   vertical-align: super;
@@ -398,6 +401,7 @@ footer > p {
 
 .lightbox img.landscape {
   width: 90%;
+  max-height: 90%;
 }
 
 

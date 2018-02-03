@@ -24,7 +24,7 @@
       <nav class="navigation">
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
-            <a class="navigation-item{{ if findRE .URL $currentPage.URL 1 }} active{{end}}" href="{{ .URL }}">↪&#xFE0E; {{ .Name }}</a>
+            <a class="navigation-item{{ if findRE .URL $currentPage.URL 1 }} active{{end}}" href="{{ .URL }}"><span class="link-arrow">↪&#xFE0E;</span> {{ .Name }}</a>
           {{ end }}
       </nav>
     </section>
