@@ -449,7 +449,6 @@ const box = new Lightbox($('.lightbox')[0])
 
 $('body').on('click', '[data-zoom]', function(){
   box.show($(this).data('zoom') || this.src)
-  console.log("Foo")
 })
 
 $('.Post').on('click', 'img', function(){
