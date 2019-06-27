@@ -24,7 +24,7 @@ pygmentscodefences = true
   url  = "/photos"
   weight = 2
 
-[[menu.main]]
-  name = "Blog"
-  url  = "/blog"
-  weight = 3
+# [[menu.main]]
+#   name = "Blog"
+#   url  = "/blog"
+#   weight = 3
