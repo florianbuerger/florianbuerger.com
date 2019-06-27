@@ -22,7 +22,7 @@ I'm [@florianbuerger](https://twitter.com/florianbuerger) on Twitter. You can [e
 
 ## How much do you charge?
 
-My rate is `80€`/hour or `3,000€`/week for short term projects or smaller chunks of work. If you need more work done, contact me, and I am sure we can work something out.
+My rate is `100€`/hour or `3,000€`/week for short term projects or smaller chunks of work. If you need more work done, contact me, and I am sure we can work something out.
 
 ## What technologies do you use?
 
@@ -36,7 +36,7 @@ Yes, I am happy to help there as well. Most of the time I work in Sketch or Affi
 
 ## Will you use any cross-platform technologies?
 
-No, I am only coding natively in Swift and Objective-C. I am willing to look at [React Native](https://facebook.github.io/react-native/) if you can make a reeeaally compelling case for it.
+No, I am only coding natively in Swift and Objective-C.
 
 ## Where are you located?
 
@@ -45,6 +45,10 @@ My business is registered in Germany, but currently, I am traveling the world wi
 ## Legal
 
 You need to sign my consulting agreement. It has an NDA agreement included. <!-- [Here is a sample](/share/sample-agreement.pdf) of what this agreement could look like. -->
+
+## Availability
+
+Right now, I am not looking for new projects as I am working full time on [Flighty](https://flighty.app)
 
 ## That's it
 
