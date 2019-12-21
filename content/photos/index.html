@@ -30,9 +30,13 @@
 		</section>
 
 		<ul class="photo">
-			{{ range sort .Page.Resources "Name" "desc" }}
+			{{ range sort (.Page.Resources.Match "*.jpg") "Name" "desc" }}
 				<li class="photo">
-					<img data-src="{{ .Permalink }}" alt="" class="lazyload">
+					<img 
+						src="{{ .Permalink }}.lqip"
+						data-src="{{ .Permalink }}" 
+						alt="" 
+						class="lazyload blur-up">
 				</li>
 			{{ end }}
 			<li class="photo"></li>
