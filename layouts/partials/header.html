@@ -10,9 +10,6 @@
     <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="stylesheet" href="/css/styles.css">
-    {{ if .RSSLink }}
-      <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
 
     <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}images/fav-icon.png">
 
