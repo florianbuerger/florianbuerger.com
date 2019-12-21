@@ -21,6 +21,7 @@
 				/*--color-light: #fff;*/
 			}
 		</style>
+		<script src="/javascript/lazysizes.min.js" async=""></script>
 	</head>
 
 	<body class="animate fadeIn">
@@ -31,7 +32,7 @@
 		<ul class="photo">
 			{{ range sort .Page.Resources "Name" "desc" }}
 				<li class="photo">
-					<img src="{{ .Permalink }}" alt="" loading="lazy">
+					<img data-src="{{ .Permalink }}" alt="" class="lazyload">
 				</li>
 			{{ end }}
 			<li class="photo"></li>
