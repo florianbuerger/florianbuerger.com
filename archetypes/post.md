@@ -1,3 +1,0 @@
-+++
-author = "Florian Bürger"
-+++

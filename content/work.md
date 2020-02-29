@@ -8,7 +8,7 @@ title = "Work"
 
 # Is this you?
 
-If you see yourself in one of the statements above, please [contact me](mailto:florian@florianbuerger.com?subject=Project inquiry). I will help you to bring that idea to life, advise you how your app could be improved or help your engineering team with the implementation.
+If you see yourself in one of the statements above, please [contact me](mailto:florian@florianbuerger.com?subject=Project%20inquiry). I will help you to bring that idea to life, advise you how your app could be improved or help your engineering team with the implementation.
 
 I developed apps full time for the Apple platform since the first release of iPhone. Back then, iOS was called iPhone OS, and web apps were the “sweet solution” for apps on iPhone, just to put the time frame into perspective.
 
