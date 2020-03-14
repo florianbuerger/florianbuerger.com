@@ -1,0 +1,23 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% assign target = "target" %}
+    <ul class="grid" id="{{ target }}">
+      {% assign images = page.images | default: site.static_files | photo_filter
+      %} {% include photos.html %}
+    </ul>
+
+    {% include javascript.html %} {% if page.image_slug %}
+    <script
+      src="{{ '/js/photos.js' | relative_url }}"
+      data-photo-id="{{ page.image_slug }}"
+      data-photo-url="{{ page.image_slug | relative_url }}"
+      data-target-id="{{ target }}"
+    ></script>
+    {% endif %}
+  </body>
+</html>
