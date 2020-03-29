@@ -59,7 +59,7 @@
 body,
 html {
   min-height: 100%;
-  display: flex;
+  // display: flex;
 }
 
 body {
@@ -74,6 +74,19 @@ body {
     background: #000;
     color: #eee;
   }
+}
+
+header.photo-header {
+  text-align: center;
+  padding: 1rem;
+}
+
+a.photo-header {
+  font-size: 200%;
+  font-weight: bolder;
+  opacity: 0.75;
+  color: #2e2f30;
+  text-decoration: none;
 }
 
 // PHOTO GRID
