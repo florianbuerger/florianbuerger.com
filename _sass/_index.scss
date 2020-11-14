@@ -140,11 +140,19 @@ img {
 
 a {
   text-decoration-skip-ink: auto;
+  text-decoration: none;
   color: var(--link-color);
-}
 
-a:visited {
-  color: var(--link-color);
+  &:visited {
+    color: var(--link-color);
+  }
+
+  &.external {
+    &:after {
+      content: "\202f\2197";
+      white-space: nowrap;
+    }
+  }
 }
 
 .highlighted {

@@ -32,6 +32,9 @@ twitter_username: florianbuerger
 github_username: florianbuerger
 instagram_username: florianbuerger
 
+target-blank:
+  add_css_classes: external
+
 # Build settings
 plugins:
   - jekyll-exif-data
