@@ -1,40 +1,7 @@
 :root {
-  --font-regular: "Atkinson Hyperlegible", -apple-system, sans-serif;
-  --font-italic: "Atkinson Hyperlegible", -apple-system, sans-serif;
-  --font-bold: "Atkinson Hyperlegible", -apple-system, sans-serif;
-}
-
-@font-face {
-  font-family: "Atkinson Hyperlegible";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Atkinson Hyperlegible Regular"),
-    local("AtkinsonHyperlegible-Regular"),
-    url(/fonts/Atkinson-Hyperlegible-Regular-102a.woff2) format("woff2");
-}
-@font-face {
-  font-family: "Atkinson Hyperlegible";
-  font-style: italic;
-  font-weight: 400;
-  src: local("Atkinson Hyperlegible Italic"),
-    local("AtkinsonHyperlegible-Italic"),
-    url(/fonts/Atkinson-Hyperlegible-Italic-102a.woff2) format("woff2");
-}
-
-@font-face {
-  font-family: "Atkinson Hyperlegible";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Atkinson Hyperlegible Bold"), local("Atkinson-Hyperlegible-Bold"),
-    url(/fonts/Atkinson-Hyperlegible-Bold-102a.woff2) format("woff2");
-}
-@font-face {
-  font-family: "Atkinson Hyperlegible";
-  font-style: italic;
-  font-weight: 700;
-  src: local("Atkinson Hyperlegible Bold Italic"),
-    local("Atkinson-Hyperlegible-BoldItalic"),
-    url(/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2) format("woff2");
+  --font-regular: -apple-system, sans-serif;
+  --font-italic: -apple-system, sans-serif;
+  --font-bold: -apple-system, sans-serif;
 }
 
 html {
@@ -43,12 +10,6 @@ html {
   --text-color-secondary: rgba(60, 60, 67, 0.6);
   --background-color: rgb(250, 250, 250);
   --link-color: rgb(247, 129, 25);
-}
-
-@media screen and (min-width: 25em) {
-  html {
-    font-size: 1.2em;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -60,18 +21,12 @@ html {
   }
 }
 
-@media screen and (min-width: 40em) {
-  html {
-    font-size: 1.3em;
-  }
-}
-
 body {
   line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
   color: var(--text-color);
-  background-color: blue; //var(--background-color);
+  background-color: var(--background-color);
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
