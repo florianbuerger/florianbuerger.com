@@ -8,7 +8,8 @@
     <header class="photo-header">
       <a class="photo-header" href="/">↑</a>
     </header>
-    {% assign target = "target" %}
+    {% assign target = "target" %} {{ page.images }}
+
     <ul class="grid" id="{{ target }}">
       {% assign images = page.images | default: site.static_files | photo_filter
       %} {% include photos.html %}
