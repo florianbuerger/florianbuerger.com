@@ -2,3 +2,6 @@ public
 _site
 content/blog/.Ulysses-favorites.plist
 .jekyll-cache
+
+# Local Netlify folder
+.netlify
