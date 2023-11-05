@@ -1,59 +1,59 @@
 :root {
-	--font-regular: -apple-system, sans-serif;
-	--font-italic: -apple-system, sans-serif;
-	--font-bold: -apple-system, sans-serif;
+  --font-regular: -apple-system, sans-serif;
+  --font-italic: -apple-system, sans-serif;
+  --font-bold: -apple-system, sans-serif;
 }
 
 html {
-	font-family: var(--font-regular);
-	--text-color: rgb(30, 30, 30);
-	--text-color-secondary: rgba(60, 60, 67, 0.6);
-	--background-color: rgb(250, 250, 250);
-	--link-color: rgb(247, 129, 25);
+  font-family: var(--font-regular);
+  --text-color: rgb(30, 30, 30);
+  --text-color-secondary: rgba(60, 60, 67, 0.6);
+  --background-color: rgb(250, 250, 250);
+  --link-color: rgb(0, 122, 255);
 }
 
 @media (prefers-color-scheme: dark) {
-	html {
-		--text-color: rgb(250, 250, 250);
-		--text-color-secondary: rgba(235, 235, 245, 0.6);
-		--background-color: rgb(28, 28, 30);
-		--link-color: rgb(247, 129, 25);
-	}
+  html {
+    --text-color: rgb(250, 250, 250);
+    --text-color-secondary: rgba(235, 235, 245, 0.6);
+    --background-color: rgb(28, 28, 30);
+    --link-color: rgb(247, 129, 25);
+  }
 }
 
 body {
-	line-height: 1.5;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: subpixel-antialiased;
-	color: var(--text-color);
-	background-color: var(--background-color);
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25),
-	only screen and(min-device-pixel-ratio: 1.25) {
-	body {
-		-webkit-font-smoothing: antialiased;
-	}
+  only screen and(min-device-pixel-ratio: 1.25) {
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 main {
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-bottom: 3em;
-	margin: 0 auto;
-	max-width: 95vw;
-	min-height: 100vh;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 3em;
+  margin: 0 auto;
+  max-width: 95vw;
+  min-height: 100vh;
 }
 
 @media screen and (min-width: 40em) {
-	main {
-		padding-left: 1em;
-		padding-right: 1em;
-		padding-bottom: 3em;
-		margin: 0 auto;
-		max-width: 25em;
-		min-height: 100vh;
-	}
+  main {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3em;
+    margin: 0 auto;
+    max-width: 25em;
+    min-height: 100vh;
+  }
 }
 
 h1,
@@ -62,156 +62,171 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-bold);
+  font-family: var(--font-bold);
 }
 
 h1 {
-	font-size: 2em;
-	margin-top: 1em;
-	margin-bottom: 0.5em;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
-	margin-top: 2em;
-	margin-bottom: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 
 strong {
-	font-weight: bold;
-	font-variant: normal;
-	font-family: var(--font-bold);
+  font-weight: bold;
+  font-variant: normal;
+  font-family: var(--font-bold);
 }
 
 em {
-	font-weight: normal;
-	font-variant: normal;
-	font-family: var(--font-italic);
+  font-weight: normal;
+  font-variant: normal;
+  font-family: var(--font-italic);
 }
 
 p {
-	margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 pre,
 code {
-	font-size: 0.8em;
-	font-family: var(--mono-font);
-	background-color: #f7f7f7;
+  font-size: 0.8em;
+  font-family: var(--mono-font);
+  background-color: #f7f7f7;
 }
 
 code {
-	padding: 4px;
+  padding: 4px;
 }
 
 pre {
-	margin-top: 0;
-	word-wrap: normal;
-	padding: 16px;
-	overflow: auto;
+  margin-top: 0;
+  word-wrap: normal;
+  padding: 16px;
+  overflow: auto;
 }
 
 blockquote {
-	text-align: center;
+  text-align: center;
 }
 
 blockquote p {
-	display: inline-block;
-	color: var(--color-light);
+  display: inline-block;
+  color: var(--color-light);
 }
 
 blockquote:before,
 blockquote:after {
-	content: "\201C";
-	font-size: 1.5em;
-	color: var(--color-light);
+  content: "\201C";
+  font-size: 1.5em;
+  color: var(--color-light);
 }
 
 blockquote:after {
-	content: "\201D";
+  content: "\201D";
 }
 
 img {
-	max-width: 100%;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+  max-width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 a {
-	text-decoration-skip-ink: auto;
-	text-decoration: none;
-	color: var(--link-color);
+  text-decoration-skip-ink: auto;
+  /* text-decoration: none; */
+  color: var(--link-color);
 }
 
 a:visited {
-	color: var(--link-color);
+  color: var(--link-color);
 }
 
-a.external:after {
-	content: "\202f\2197";
-	white-space: nowrap;
+a[href^="http"]::after,
+a[href^="https://"]::after
+{
+  content: "\202f\202f\2197";
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-block;
 }
 
 .highlighted {
-	background-color: #ffff99;
+  background-color: #ffff99;
 }
 
 .avatar {
-	margin-top: 5rem;
-	margin-bottom: 3rem;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 #intro {
-	margin-top: 4rem;
+  margin-top: 4rem;
+  text-align: center;
 }
 
 @media screen and (min-width: 40em) {
-	.avatar {
-		margin-top: 8rem;
-		margin-bottom: 4rem;
-	}
+  .avatar {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+  }
+}
+
+ul.menu {
+  padding-inline-start: 0;
+  text-align: center;
+}
+
+ul.menu li {
+  display: inline-block;
+  padding: 0 1em;
 }
 
 .link-arrow {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 
 sup {
-	vertical-align: super;
-	font-size: 0.6em;
-	padding-left: 0.1em;
-	font-family: var(--sans-serif-font);
+  vertical-align: super;
+  font-size: 0.6em;
+  padding-left: 0.1em;
+  font-family: var(--sans-serif-font);
 }
 
 sup > a {
-	color: var(--color-light);
-	text-decoration: none;
+  color: var(--color-light);
+  text-decoration: none;
 }
 
 .footnote-return {
-	color: var(--color-light);
-	text-decoration: none;
+  color: var(--color-light);
+  text-decoration: none;
 }
 
 .footnotes {
-	margin-top: 6em;
-	padding-top: 2em;
-	padding-left: 1.5em;
-	font-size: 0.7em;
-	border-top: 1px solid #999;
+  margin-top: 6em;
+  padding-top: 2em;
+  padding-left: 1.5em;
+  font-size: 0.7em;
+  border-top: 1px solid #999;
 }
 
 footer {
-	text-align: center;
-	margin-top: 4em;
-	margin-bottom: 1em;
-	font-size: 0.6em;
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 1em;
+  font-size: 0.6em;
 }
 
 footer > p {
-	color: #999;
+  color: #999;
 }
